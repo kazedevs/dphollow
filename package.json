@@ -1,6 +1,6 @@
 {
   "name": "dphollow",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A powerful CLI tool to analyze and manage project dependencies. Find unused and missing dependencies with a beautiful interface.",
   "main": "index.js",
   "bin": {
