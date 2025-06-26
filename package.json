@@ -4,7 +4,7 @@
   "description": "🔍 A powerful CLI tool to analyze and manage project dependencies. Find unused and missing dependencies with a beautiful interface.",
   "main": "index.js",
   "bin": {
-    "hollow": "./index.js"
+    "dphollow": "./index.js"
   },
   "scripts": {
     "start": "node index.js",
@@ -22,7 +22,7 @@
     "dependency-manager",
     "dev-dependencies"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Kazedevs <kazed4v@proton.me>",
   "license": "MIT",
   "type": "commonjs",
   "engines": {
