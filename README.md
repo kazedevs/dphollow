@@ -68,4 +68,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-MIT © [Your Name](https://github.com/yourusername)
+MIT © [Kazedevs](https://github.com/kazedevs)
