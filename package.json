@@ -30,11 +30,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kazedevs/hollow-cli.git"
+    "url": "https://github.com/kazedevs/dphollow"
   },
-  "homepage": "https://github.com/kazedevs/hollow-cli#readme",
+  "homepage": "https://github.com/kazedevs/dphollow#readme",
   "bugs": {
-    "url": "https://github.com/kazedevs/hollow-cli/issues"
+    "url": "https://github.com/kazedevs/dphollow/issues"
   },
   "dependencies": {
     "boxen": "^8.0.1",
