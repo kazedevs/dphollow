@@ -1,0 +1,56 @@
+{
+  "name": "hollow",
+  "version": "1.0.0",
+  "description": "🔍 A powerful CLI tool to analyze and manage project dependencies. Find unused and missing dependencies with a beautiful interface.",
+  "main": "index.js",
+  "bin": {
+    "hollow": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "dependencies",
+    "cli",
+    "analyze",
+    "unused",
+    "missing",
+    "package.json",
+    "node",
+    "javascript",
+    "dependency-manager",
+    "dev-dependencies"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kazedevs/hollow-cli.git"
+  },
+  "homepage": "https://github.com/kazedevs/hollow-cli#readme",
+  "bugs": {
+    "url": "https://github.com/kazedevs/hollow-cli/issues"
+  },
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "commander": "^10.0.0",
+    "ora": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "files": [
+    "src/",
+    "index.js",
+    "LICENSE"
+  ]
+}
