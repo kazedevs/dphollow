@@ -1,8 +1,11 @@
-# Hollow CLI
+# dphollow
 
 🔍 A powerful CLI tool to analyze and manage project dependencies. Find unused and missing dependencies with a beautiful interface.
 
-![Hollow CLI in action](https://github.com/yourusername/hollow-cli/raw/main/screenshot.png)
+[![npm version](https://img.shields.io/npm/v/dphollow.svg?style=flat-square)](https://www.npmjs.com/package/dphollow)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+![dphollow CLI in action](screenshot.jpg)
 
 ## Features
 
@@ -15,19 +18,19 @@
 ## Installation
 
 ```bash
-npm install -g hollow
+npm install -g dphollow
 ```
 
 Or use with npx:
 
 ```bash
-npx hollow
+npx dphollow
 ```
 
 ## Usage
 
 ```bash
-hollow [command] [options]
+dphollow [command] [options]
 
 Commands:
   analyze, a  Analyze project dependencies
@@ -43,10 +46,18 @@ Options:
 Analyze project dependencies:
 
 ```bash
-hollow
+dphollow
 # or
-hollow analyze
+dphollow analyze
 ```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Get verbose output:
 
